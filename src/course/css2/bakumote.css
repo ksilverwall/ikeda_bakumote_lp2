@@ -17,6 +17,10 @@
   background-color: #eeefef;
 }
 
+.entry-button-2 {
+  background-color: #000;
+}
+
 /**
  * Full width image
  */
@@ -27,4 +31,38 @@
   width: 100%;
   height: auto;
   display: block;
+}
+
+/**
+ * Footer
+ */
+
+.footer {
+  background-color: #014faf;
+  padding: 10px;
+  text-align: center;
+}
+
+.footer p {
+  color: #fff;
+  margin: 0;
+}
+
+.footer a {
+  color: #fff;
+  margin: 0;
+}
+
+.menu-container {
+  text-align: center;
+}
+
+.menu-container ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.menu-container li {
+  margin: 0 15px;
 }
