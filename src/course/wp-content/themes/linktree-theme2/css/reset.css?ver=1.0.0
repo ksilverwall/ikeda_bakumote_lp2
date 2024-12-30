@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+/*各要素の基本リセット*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;/*フォントサイズのリセット*/
+    vertical-align:baseline;/*行内のテキストや画像等の縦方向の揃え方を親要素のベースラインに揃える指定*/
+    background:transparent;/*要素の背景色を透明に指定*/
+}
+
+body {
+    line-height:1;/*行の高さをフォントサイズと同じにして実質行の高さがリセットされる指定*/
+}
+
+
+/*html5で追加された要素をブロック要素に統一する*/
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+ul,ol {
+    list-style:none;/*liのマーカーを消す*/
+}
+
+/*a要素のリセット*/
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+a img {
+    border-style:none;/*リンクを指定した画像に枠線を表示しない設定*/
+}
+
+
+/* ins要素とはコンテンツに後から追加した内容を表す要素。必要に合わせて色を変更する */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* ins要素とはハイライトして目立たせたいテキストに使用する要素。必要に合わせて色を変更する */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+/* del要素とは後から削除された部分に使用する要素。 */
+del {
+    text-decoration: line-through;/*テキストに打ち消し線を付ける*/
+}
+
+
+table {
+    border-collapse:collapse;/*隣合うセルのボーダーを重ねて表示する*/
+    border-spacing:0;/*隣合うセルのボーダーとボーダーの間隔を指定する*/
+}
+
+
+/*フォームの部品*/
+
+input, select {
+    vertical-align:middle;/*縦方向の揃え方を中央揃えに指定*/
+}
+
+/*全ての要素に border-boxを適用する*/
+* {
+box-sizing: border-box;
+}
