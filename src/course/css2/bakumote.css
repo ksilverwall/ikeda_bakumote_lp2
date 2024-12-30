@@ -13,18 +13,18 @@
   object-fit: contain;
 }
 
-.content01 {
-  display: flex;
-  width: 100%;
-  justify-content: center;
+.entry-button {
+  background-color: #eeefef;
 }
 
-.content01 img {
+/**
+ * Full width image
+ */
+.full-width-image-box {
+  width: 100%;
+}
+.full-width-image-box img {
   width: 100%;
   height: auto;
   display: block;
-}
-
-.entry-button {
-  background-color: #eeefef;
 }
