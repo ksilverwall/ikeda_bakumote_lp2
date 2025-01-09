@@ -2,6 +2,12 @@ section {
   max-width: 1024px;
 }
 
+@media screen and (max-width: 768px) {
+  .pc-only {
+    display: none;
+  }
+}
+
 .main {
   display: flex;
   flex-direction: column;
