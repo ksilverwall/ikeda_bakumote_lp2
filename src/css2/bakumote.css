@@ -33,6 +33,12 @@ section {
   padding: 64px;
 }
 
+@media screen and (max-width: 768px) {
+  .entry-button {
+    width: 360px;
+  }
+}
+
 .entry-button a img{
   max-width: 100%;
 }
