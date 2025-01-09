@@ -17,6 +17,10 @@
   background-color: #eeefef;
 }
 
+.entry-button a img{
+  max-width: 100%;
+}
+
 .entry-button-2 {
   background-color: #000;
 }
