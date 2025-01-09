@@ -21,8 +21,16 @@ section {
   object-fit: contain;
 }
 
+.intro-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #eeefef;;
+}
+
 .entry-button {
-  background-color: #eeefef;
+  width: 520px;
+  padding: 64px;
 }
 
 .entry-button a img{
